@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1 channel-id="SPOTV.kr" tvg-id="SPOTV.kr" tvg-logo="https://github.com/ivanadito-ap/tvh/blob/eac65e06cb4f48e6b01715e65688551f9e9862ad/images/SPOTV.kr.png?raw=true" tvg-chno="9000" group-title="Sports" , SPOTV
-https://raw.githubusercontent.com/kusnadipepenk/ntn/master/spotv1.m3u8
+pipe://ffmpeg -loglevel fatal -probesize 10M -analyzeduration 0 -fpsprobesize 0 -i https://raw.githubusercontent.com/kusnadipepenk/ntn/master/spotv1.m3u8 -vcodec copy -acodec copy -metadata service_name=SPOTV.kr -f mpegts pipe:1
 
 #EXTINF:-1 channel-id="SPOTV2.kr" tvg-id="SPOTV2.kr" tvg-logo="https://github.com/ivanadito-ap/tvh/blob/eac65e06cb4f48e6b01715e65688551f9e9862ad/images/SPOTV2.kr.png?raw=true" tvg-chno="9001" group-title="Sports" , SPOTV2
-https://raw.githubusercontent.com/kusnadipepenk/ntn/master/spotv2.m3u8
+pipe://ffmpeg -loglevel fatal -probesize 10M -analyzeduration 0 -fpsprobesize 0 -i https://raw.githubusercontent.com/kusnadipepenk/ntn/master/spotv2.m3u8 -vcodec copy -acodec copy -metadata service_name=SPOTV2.kr -f mpegts pipe:1
