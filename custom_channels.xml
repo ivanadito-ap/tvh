@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+  <channel site="visionplus.id" lang="en" xmltv_id="SPOTV.kr" site_id="41788">SPOTV</channel>
+  <channel site="visionplus.id" lang="en" xmltv_id="SPOTV2.kr" site_id="41792">SPOTV 2</channel>
+  <channel site="tvguide.com" lang="en" xmltv_id="AMCEast.us" site_id="9100001138#9233011832">AMC (East)</channel>
+  <channel site="tvguide.com" lang="en" xmltv_id="SundanceTVEast.us" site_id="9100001138#9233001687">SundanceTV (East)</channel>
+  <channel site="tvguide.com" lang="en" xmltv_id="BBCAmericaEast.us" site_id="9100001138#9200014701">BBC America (East)</channel>
+  <channel site="tvguide.com" lang="en" xmltv_id="IFCEast.us" site_id="9100001138#9200004303">IFC (East)</channel>
+</channels>
