@@ -1,0 +1,15 @@
+#EXTM3U
+#EXTINF:-1 channel-id="AMCEast.us" tvg-id="AMCEast.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/512px-AMC_logo_2019.svg.png" tvg-chno="9002" group-title="Entertainment" , AMC
+pipe://ffmpeg -loglevel fatal -probesize 10M -analyzeduration 0 -fpsprobesize 0 -i https://bcovlive-a.akamaihd.net/94e1185924514d0694019d24cfca7121/us-east-1/6240731308001/playlist.m3u8 -vcodec copy -acodec copy -metadata service_name=AMCEast.us -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="AMCPlus.us" tvg-id="AMCPlus.us" tvg-logo=https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/AMC%2B_logo.png/320px-AMC%2B_logo.png" tvg-chno="9003" group-title="Entertainment" , AMC+
+pipe://ffmpeg -loglevel fatal -probesize 10M -analyzeduration 0 -fpsprobesize 0 -i https://bcovlive-a.akamaihd.net/ba853de442c140b7b3dc020001597c0a/us-east-1/6245817279001/playlist.m3u8 -vcodec copy -acodec copy -metadata service_name=AMCPlus.us -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="SundanceTVEast.us" tvg-id="SundanceTVEast.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/SundanceTV_2014.svg/512px-SundanceTV_2014.svg.png" tvg-chno="9004" group-title="Entertainment" , Sundance TV
+pipe://ffmpeg -loglevel fatal -probesize 10M -analyzeduration 0 -fpsprobesize 0 -i https://bcovlive-a.akamaihd.net/b68f4655411b4fe18b32d68bf68b067d/us-east-1/6240731308001/playlist.m3u8 -vcodec copy -acodec copy -metadata service_name=SundanceTVEast.us -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="BBCAmericaEast.us" tvg-id="BBCAmericaEast.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/BBC_America_logo_2021.svg/572px-BBC_America_logo_2021.svg.png" tvg-chno="9005" group-title="Entertainment" , BBC America
+pipe://ffmpeg -loglevel fatal -probesize 10M -analyzeduration 0 -fpsprobesize 0 -i https://bcovlive-a.akamaihd.net/cde8d9416f6d4f1da0a4e8cfde6e8b2c/us-east-1/6240731308001/playlist.m3u8 -vcodec copy -acodec copy -metadata service_name=BBCAmericaEast.us -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="IFCEast.us" tvg-id="IFCEast.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/IFC_2018_logo.svg/640px-IFC_2018_logo.svg.png" tvg-chno="9006" group-title="Entertainment" , IFC
+pipe://ffmpeg -loglevel fatal -probesize 10M -analyzeduration 0 -fpsprobesize 0 -i https://bcovlive-a.akamaihd.net/7304338dca7a4c91b8f0504de0342687/us-east-1/6240731308001/playlist.m3u8 -vcodec copy -acodec copy -metadata service_name=IFCEast.us -f mpegts pipe:1
