@@ -1,3 +1,3 @@
 #EXTM3U
 #EXTINF:-1 channel-id="DiscoveryChannel.id" tvg-id="DiscoveryChannel.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/512px-2019_Discovery_logo.svg.png" tvg-chno="9007" group-title="Entertainment" , Discovery Channel Asia
-pipe://ffmpeg -loglevel fatal -probesize 10M -analyzeduration 0 -fpsprobesize 0 -i https://raw.githubusercontent.com/kusnadipepenk/ntn/master/discasia.m3u8 -vcodec copy -acodec copy -metadata service_name=DiscoveryChannel.id -f mpegts pipe:1
+pipe://ffmpeg -loglevel fatal -probesize 10M -analyzeduration 0 -fpsprobesize 0 -i http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch29%29/Stream(02)/index.m3u8 -vcodec copy -acodec copy -metadata service_name=DiscoveryChannel.id -f mpegts pipe:1
