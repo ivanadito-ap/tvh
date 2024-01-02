@@ -1,3 +1,3 @@
 #EXTM3U
-#EXTINF:-1 channel-id="AXN.id" tvg-id="DiscoveryChannel.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/512px-AXN_logo_%282015%29.svg.png" tvg-chno="9008" group-title="Entertainment" , AXN
+#EXTINF:-1 channel-id="AXN.id" tvg-id="AXN.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/512px-AXN_logo_%282015%29.svg.png" tvg-chno="9008" group-title="Entertainment" , AXN
 pipe://ffmpeg -loglevel fatal -probesize 10M -analyzeduration 0 -fpsprobesize 0 -i http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch332%29/index.m3u8 -vcodec copy -acodec copy -metadata service_name=AXN.id -f mpegts pipe:1
