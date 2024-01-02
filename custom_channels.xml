@@ -2,6 +2,9 @@
 <channels>
   <channel site="firstmedia.com" lang="en" xmltv_id="SPOTV.kr" site_id="139">SPOTV</channel>
   <channel site="firstmedia.com" lang="en" xmltv_id="SPOTV2.kr" site_id="140">SPOTV 2</channel>
+  <channel site="firstmedia.com" lang="en" xmltv_id="DiscoveryChannel.id" site_id="101">Discovery Channel</channel>
+  <channel site="firstmedia.com" lang="en" xmltv_id="ParamountNetwork.id" site_id="309">Paramount Network HD</channel>
+  <channel site="firstmedia.com" lang="en" xmltv_id="AXN.id" site_id="51">AXN</channel>
   <channel site="tvguide.com" lang="en" xmltv_id="AMCEast.us" site_id="9100001138#9233011832">AMC (East)</channel>
   <channel site="tvguide.com" lang="en" xmltv_id="SundanceTVEast.us" site_id="9100001138#9233001687">SundanceTV (East)</channel>
   <channel site="tvguide.com" lang="en" xmltv_id="BBCAmericaEast.us" site_id="9100001138#9200014701">BBC America (East)</channel>
